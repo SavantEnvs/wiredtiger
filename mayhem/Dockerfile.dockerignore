@@ -1,0 +1,7 @@
+# Build context for `docker build -f mayhem/Dockerfile .`: the FULL repo, including .git history
+# (the grader needs it). Only local build outputs and editor/OS noise are dropped.
+build-fuzz/
+build-tests/
+.DS_Store
+*.swp
+*~
