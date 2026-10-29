@@ -1,0 +1,9 @@
+project: savantenvs/wiredtiger
+target: fuzz_modify
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_modify/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_modify
+    libfuzzer: true
+    timeout: 5
