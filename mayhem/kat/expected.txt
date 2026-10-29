@@ -1,0 +1,19 @@
+search key042=value-1764
+search key500=notfound
+after update key042=updated
+after remove key007=notfound
+first key=key000
+scan count=99 keysum=4943
+last key=key099
+reopen key099=value-9801
+modify result=__ABxyz1FGHIJ size=13
+config path -> /dev/loop (type 2)
+config page_size -> 1024 (type 3)
+config log -> (file_max=20MB,remove=true) (type 4)
+config name -> quoted str (type 0)
+config log.file_max=20971520
+config page_size=1024
+config missing=notfound
+pack size iSq=6
+pack bytes=c0ec6869007b
+unpack i=300 S=hi q=-5
